@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TasteBuds Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">TasteBuds</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Delicious Food, Cozy Ambience</h1>
+    <p>Welcome to TasteBuds – where flavors come alive!</p>
+    <a href="#contact" class="btn">Book a Table</a>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="tabs">
+      <button class="tab active" data-category="starters">Starters</button>
+      <button class="tab" data-category="mains">Main Course</button>
+      <button class="tab" data-category="desserts">Desserts</button>
+      <button class="tab" data-category="drinks">Drinks</button>
+    </div>
+
+    <div class="menu-items">
+      <!-- Example food cards -->
+      <div class="item" data-category="snacks">
+        <img src="Golgappa.jpg" alt="Golgappa">
+        <h3>Golgappa
+        </h3>
+        <p>Golgappa is a favorite snack all over India.
+</p>
+        <span>₹80</span>
+      </div>
+      <div class="item" data-category="mains">
+        <img src="pasta.jpg" alt="Pasta">
+        <h3>Italian Pasta</h3>
+        <p>Rich creamy sauce with parmesan</p>
+        <span>₹350</span>
+      </div>
+      <div class="item" data-category="desserts">
+        <img src="brownie.jpg" alt="Brownie">
+        <h3>Chocolate Brownie</h3>
+        <p>Warm brownie with ice cream</p>
+        <span>₹150</span>
+      </div>
+      <div class="item" data-category="drinks">
+        <img src="mojito.jpg" alt="Mojito">
+        <h3>Mint Mojito</h3>
+        <p>Refreshing mint lime soda</p>
+        <span>₹120</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We’ve been serving delicious meals with love since 2005. Our chefs combine tradition and innovation to craft unforgettable flavors in every bite.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 TasteBuds Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
